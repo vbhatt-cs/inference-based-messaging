@@ -214,5 +214,5 @@ fabric.properties
 
 # Custom
 .idea/
-info-comm/Experiments/
+signaling-games/Experiments/
 inference-comm/logs/
