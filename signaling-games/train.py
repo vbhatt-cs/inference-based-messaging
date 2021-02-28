@@ -288,6 +288,22 @@ def parse_args():
 
 
 def run(config):
+    """
+    Train the agents
+    Args:
+        config: Dict containing all parameters listed in default_config.json
+
+    Returns:
+        If log_summary is true,
+             the mean and standard error for normalized rewards and percentage of optimal
+                actions for each episode during training
+             convergence points and the percentage of optimal actions with the final
+                policy
+        Else
+            bool indicating optimal action for each step in each run
+            convergence points
+            numbers for plotting the Venn diagram (see compare_to_fixed.py for an example)
+    """
     np.random.seed(config["seed"])
     try:
         payoff = (

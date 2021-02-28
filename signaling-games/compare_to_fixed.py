@@ -11,7 +11,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from scipy import stats
 
-from coordination import run
+from train import run
 from plot_utils import plot_confusion_matrix, plot_venn
 
 with open("default_config.json") as f:
