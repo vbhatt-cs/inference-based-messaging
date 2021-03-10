@@ -17,26 +17,26 @@ Algorithms to learn communication in one-step cooperative signaling games.
 
 #### Files for running experiments
 
-- _train.py_ - Code for training the agents
-- _paper_experiments.py_ - Code to run the experiments described in the paper. Uncomment 
-  the required experiment in the _main()_ function. 
-- _compare_to_fixed.py_ - Code for comparing an algorithm to its fixed messages and fixed 
+- `train.py` - Code for training the agents
+- `paper_experiments.py` - Code to run the experiments described in the paper. Uncomment 
+  the required experiment in the `main()` function. 
+- `compare_to_fixed.py` - Code for comparing an algorithm to its fixed messages and fixed 
   actions variant and plotting/saving.
-- _run_single_config.py_ - Code to run a single config from a list of configs. For 
+- `run_single_config.py` - Code to run a single config from a list of configs. For 
   parallel training on a server, run the required experiment locally using 
-  _paper_experiments.py_ till the config list is saved. Then, set the experiment directory
-  in _run_single_config.py_ and schedule jobs to run each config.
-- _plotting.py_ - Code for plotting. The experiment directory needs to be set inside 
+  `paper_experiments.py` till the config list is saved. Then, set the experiment directory
+  in `run_single_config.py` and schedule jobs to run each config.
+- `plotting.py` - Code for plotting. The experiment directory needs to be set inside 
   the required function. The code for saving the figures is commented out.
 
 #### Others
 
-- _algs_ - Implementations of the algorithms
-- _utils.py_ - Utility functions
-- _plot_utils.py_ - Utility functions for plotting
-- _default_config.json_ - Default parameters
-- _best_configs_ - Pickled list of the best parameters for each algorithm
-- _best_configs_32x32_ - Pickled list of the best parameters for each algorithm in the 
+- `algs/` - Implementations of the algorithms
+- `utils.py` - Utility functions
+- `plot_utils.py` - Utility functions for plotting
+- `default_config.json` - Default parameters
+- `best_configs` - Pickled list of the best parameters for each algorithm
+- `best_configs_32x32` - Pickled list of the best parameters for each algorithm in the 
   32x32 setting
   
 

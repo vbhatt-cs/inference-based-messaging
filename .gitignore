@@ -215,4 +215,4 @@ fabric.properties
 # Custom
 .idea/
 signaling-games/Experiments/
-inference-comm/logs/
+func-approx/logs/

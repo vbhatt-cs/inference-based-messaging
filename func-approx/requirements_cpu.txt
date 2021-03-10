@@ -1,0 +1,9 @@
+numpy
+gym
+matplotlib
+tensorflow-cpu
+pandas
+ray[rllib]
+requests
+psutil
+gputil
